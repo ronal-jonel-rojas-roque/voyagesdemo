@@ -1,0 +1,151 @@
+.section-5 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section-5 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #284464;
+}
+
+.columniz {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.title-izq {
+    width: 90%;
+}
+
+.title-izq h2 {
+    font-size: 2.2rem;
+    color: #D5B796;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinionReg', sans-serif;
+    line-height: 1.5;
+}
+
+.text-izq span {
+    width: 90%;
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinionReg', sans-serif;
+    line-height: 1.5;
+}
+
+.columrig {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.columrig::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../../../assets/images/fondo/fondosection5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.columrig::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(40, 68, 100, 0.705) 90%, #284464 100%);
+    z-index: 2;
+}
+
+.cover-rigth {
+    position: relative;
+    z-index: 3;
+    background-color: #2844648c;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-data {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-data .imguser {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-data span {
+    width: 100%;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinionReg', sans-serif;
+    line-height: 1.5;
+}
+
+/*media*/
+
+@media (max-width: 800px) {
+
+    .img-data .imguser {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .content-section-5 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .columniz, .columrig {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .columrig {
+        min-height: 300px; /* Ajusta según sea necesario */
+    }
+
+    .cover-rigth {
+        background-color: transparent;
+    }
+
+    .img-data {
+        padding: 20px 0;
+    }
+
+    .title-izq h2, .text-izq span, .img-data span {
+        font-size: 1rem; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+}

@@ -1,0 +1,235 @@
+.container-section-4 {
+    padding-top: 30px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.fade-entrate {
+    opacity: 0;
+    animation: fadeInAnimations 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimations {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.div-title-section-4,
+.div-medium-section,
+.div-bottom,
+.div-btn-res,
+.columniz,
+.columnrig {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.div-title-section-4.fade-entrate,
+.div-medium-section.fade-entrate,
+.div-bottom.fade-entrate,
+.div-btn-res.fade-entrate,
+.columnizq.fade-entrate,
+.columnrig.fade-entrate{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.div-title-section-4 {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+.div-title-section-4 h1 {
+    font-size: 2rem;
+    color: #D5B796;
+    font-family: 'MyFontMinionReg', sans-serif;
+    user-select: none;
+}
+
+.div-title-section-4 span {
+    color: #284464;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinionReg', sans-serif;
+    line-height: 1.5;
+}
+
+/*columns*/
+
+.div-medium-section {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-colum {
+    width: 100%;
+    height: 100%;
+}
+
+.data-text-title {
+    width: 100%;
+    height: 100%;
+    min-height: 80px;
+}
+
+.data-text-title h2 {
+    width: 90%;
+    color: #284464;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinionReg', sans-serif;
+    line-height: 1.2;
+    user-select: none;
+}
+
+.content-data-ins {
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid #284464;
+}
+
+.content-data-ins .data-view {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.data-revel {
+    color: #284464;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinionReg', sans-serif;
+    line-height: 1.2;
+}
+
+.title-inspirate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-inspirate h3 {
+    width: 80%;
+    color: #D5B796;
+    user-select: none;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinion', sans-serif;
+}
+
+.inspirate {
+    width: 100%;
+    height: 100%;
+}
+
+/*div-bottom*/
+
+.div-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.div-icon {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.div-icon svg {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #284464;
+    font-size: 5rem;
+    fill: #284464;
+}
+
+.div-text-botom {
+    width: 80%;
+    height: 100%;
+    user-select: none;
+
+}
+
+.div-text-botom span {
+    font-size: 1.2rem;
+    font-family: 'MyFontMinionReg';
+    color: #284464;
+    letter-spacing: 1.5px;
+    line-height: 1.25
+}
+
+.div-btn-res {
+    background-color: #284464;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.div-btn-res .Link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.div-btn-res .Link span {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'MyFontRancho', cursive;
+}
+
+/*media querys*/
+
+@media (max-width: 800px) {
+
+    .container-section-4 {
+        margin-bottom: 30px;
+    }
+
+    .div-medium-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-colum {
+        width: 100%;
+    }
+
+    .title-inspirate h3 {
+        width: 90%;
+    }
+
+    .columizquierda {
+        padding-bottom: 20px;
+    }
+}
+
+/*estyle revelation*/
+
+/* .content-data-ins {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.content-data-ins.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+} */

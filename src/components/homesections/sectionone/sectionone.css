@@ -1,0 +1,138 @@
+.contentsectio1 {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url('../../../assets/images//fondo/fondosection1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contentsectio1-webkit {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #35527396;
+}
+
+.textlogo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textlogo .logojanonese {
+    font-size: 6rem;
+    color: #D5B796;
+}
+
+.title {
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'MyFontFuncity', sans-serif;
+}
+
+.titles span {
+    color: #D5B796;
+    font-family: 'MyFontRancho', cursive;
+    font-size: 1.5rem;
+}
+
+.icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heigthspacing {
+    width: 100%;
+    height: 20px;
+}
+
+.icons .icono {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+}
+
+.icons .icono:last-child {
+    margin-right: 0;
+}
+
+.spantext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.spantext span{
+    font-family: 'MyFontMinion';
+}
+.btnplan {
+    background-color: #D5B796;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btnplan .Link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnplan .Link span{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'MyFontRancho', cursive;
+}
+
+.iconarrow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    animation: bounceUpDown .5s infinite alternate;
+}
+
+.iconarrow svg {
+    color: #fff;
+    font-size: 3rem;
+}
+
+@keyframes bounceUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+/*vistas móviles*/
+@media screen and (max-width: 768px) {
+    .iconarrow {
+        margin-top: 50px;
+    }
+}

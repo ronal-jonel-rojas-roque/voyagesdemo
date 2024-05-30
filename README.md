@@ -8,6 +8,17 @@ In the project directory, you can run:
 
 ### `npm start`
 
+
+## INSTALATION
+npm install (este comando insalara todos los paquetes usados)
+npm install --save-dev @types/react-modal
+npm install lord-icon-element
+npm install lottie-web
+npm install --save-dev @types/lottie-web
+npm install gh-pages --save-dev
+
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
