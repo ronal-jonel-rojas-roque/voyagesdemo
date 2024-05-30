@@ -4,8 +4,6 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import Modal from 'react-modal';
-import { defineElement } from 'lord-icon-element';
-import lottie from 'lottie-web';
 
 Modal.setAppElement('#root');
 const root = ReactDOM.createRoot(

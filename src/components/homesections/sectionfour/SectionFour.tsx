@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './sectionfour.css'
-import { GiSpotedFlower, GiVineFlower } from "react-icons/gi";
+import { GiVineFlower } from "react-icons/gi";
 import { Link } from 'react-router-dom'
 import { MdOutlineHorizontalRule } from 'react-icons/md';
 import { FaPlus } from "react-icons/fa6";
