@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/voyagesdemo/static/css/main.e24823fd.css",
+    "main.js": "/voyagesdemo/static/js/main.3dd30ee9.js",
+    "static/js/453.acc792a6.chunk.js": "/voyagesdemo/static/js/453.acc792a6.chunk.js",
+    "static/media/img_6.jpg": "/voyagesdemo/static/media/img_6.cbed77688f84963c9843.jpg",
+    "static/media/img_5.jpg": "/voyagesdemo/static/media/img_5.bcd042a5200f4192869f.jpg",
+    "static/media/img_3.jpg": "/voyagesdemo/static/media/img_3.1cf3d5913827b609ae96.jpg",
+    "static/media/img_2.jpg": "/voyagesdemo/static/media/img_2.b5e8ab541f7842e05a94.jpg",
+    "static/media/fondosection1.jpg": "/voyagesdemo/static/media/fondosection1.c9d2455b046201ee901e.jpg",
+    "static/media/img_1.jpg": "/voyagesdemo/static/media/img_1.d494d0bffb4589674147.jpg",
+    "static/media/img_4.jpg": "/voyagesdemo/static/media/img_4.547a066db541bd5997a9.jpg",
+    "static/media/MinionPro-MediumIt.woff": "/voyagesdemo/static/media/MinionPro-MediumIt.71f02cd871b5326dc60b.woff",
+    "static/media/MinionPro-Regular.woff": "/voyagesdemo/static/media/MinionPro-Regular.7cfa635450eff096f301.woff",
+    "static/media/fondosection5.jpg": "/voyagesdemo/static/media/fondosection5.61c3773ab648d02f1a55.jpg",
+    "static/media/img1.png": "/voyagesdemo/static/media/img1.753e2a748bfab98a4307.png",
+    "static/media/Rancho-Regular.ttf": "/voyagesdemo/static/media/Rancho-Regular.3570bfe74a87405d74f3.ttf",
+    "static/media/Yin.png": "/voyagesdemo/static/media/Yin.d80fdb31f7d22be54802.png",
+    "static/media/temple.png": "/voyagesdemo/static/media/temple.e6fb80ddd847090682f9.png",
+    "static/media/FunCityLevel2Stencil.woff": "/voyagesdemo/static/media/FunCityLevel2Stencil.8a5f676676ee97478cc5.woff",
+    "index.html": "/voyagesdemo/index.html",
+    "main.e24823fd.css.map": "/voyagesdemo/static/css/main.e24823fd.css.map",
+    "main.3dd30ee9.js.map": "/voyagesdemo/static/js/main.3dd30ee9.js.map",
+    "453.acc792a6.chunk.js.map": "/voyagesdemo/static/js/453.acc792a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e24823fd.css",
+    "static/js/main.3dd30ee9.js"
+  ]
+}
