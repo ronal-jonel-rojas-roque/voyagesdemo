@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/voyagesdemo/static/css/main.e24823fd.css",
-    "main.js": "/voyagesdemo/static/js/main.3f97982f.js",
+    "main.css": "/voyagesdemo/static/css/main.e920ff3a.css",
+    "main.js": "/voyagesdemo/static/js/main.986e0399.js",
     "static/js/453.acc792a6.chunk.js": "/voyagesdemo/static/js/453.acc792a6.chunk.js",
     "static/media/img_6.jpg": "/voyagesdemo/static/media/img_6.cbed77688f84963c9843.jpg",
     "static/media/img_5.jpg": "/voyagesdemo/static/media/img_5.bcd042a5200f4192869f.jpg",
@@ -11,7 +11,9 @@
     "static/media/img_1.jpg": "/voyagesdemo/static/media/img_1.d494d0bffb4589674147.jpg",
     "static/media/img_4.jpg": "/voyagesdemo/static/media/img_4.547a066db541bd5997a9.jpg",
     "static/media/MinionPro-MediumIt.woff": "/voyagesdemo/static/media/MinionPro-MediumIt.71f02cd871b5326dc60b.woff",
+    "static/media/log.png": "/voyagesdemo/static/media/log.60c78e79fba5fb217cde.png",
     "static/media/MinionPro-Regular.woff": "/voyagesdemo/static/media/MinionPro-Regular.7cfa635450eff096f301.woff",
+    "static/media/background-whatsapp.jpg": "/voyagesdemo/static/media/background-whatsapp.b43d30ad0de61a0de88c.jpg",
     "static/media/fondosection5.jpg": "/voyagesdemo/static/media/fondosection5.61c3773ab648d02f1a55.jpg",
     "static/media/img1.png": "/voyagesdemo/static/media/img1.753e2a748bfab98a4307.png",
     "static/media/Rancho-Regular.ttf": "/voyagesdemo/static/media/Rancho-Regular.3570bfe74a87405d74f3.ttf",
@@ -19,12 +21,12 @@
     "static/media/temple.png": "/voyagesdemo/static/media/temple.e6fb80ddd847090682f9.png",
     "static/media/FunCityLevel2Stencil.woff": "/voyagesdemo/static/media/FunCityLevel2Stencil.8a5f676676ee97478cc5.woff",
     "index.html": "/voyagesdemo/index.html",
-    "main.e24823fd.css.map": "/voyagesdemo/static/css/main.e24823fd.css.map",
-    "main.3f97982f.js.map": "/voyagesdemo/static/js/main.3f97982f.js.map",
+    "main.e920ff3a.css.map": "/voyagesdemo/static/css/main.e920ff3a.css.map",
+    "main.986e0399.js.map": "/voyagesdemo/static/js/main.986e0399.js.map",
     "453.acc792a6.chunk.js.map": "/voyagesdemo/static/js/453.acc792a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e24823fd.css",
-    "static/js/main.3f97982f.js"
+    "static/css/main.e920ff3a.css",
+    "static/js/main.986e0399.js"
   ]
 }
