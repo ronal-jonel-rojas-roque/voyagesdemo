@@ -5,6 +5,9 @@ import SectionThree from '../../components/homesections/sectionthree/SectionThre
 import SectionFour from '../../components/homesections/sectionfour/SectionFour';
 import SectionFive from '../../components/homesections/sectionfive/SectionFive';
 import SectionSix from '../../components/homesections/sectionsix/SectionSix';
+import SectionSeven from '../../components/homesections/sectionseven/SectionSeven';
+import SectionEight from '../../components/homesections/sectioneight/SectionEight';
+import BtnChat from '../../components/btnchat/BtnChat';
 
 export default function home() {
     return (
@@ -29,6 +32,13 @@ export default function home() {
             <section>
                 <SectionSix />
             </section>
+            <section>
+                <SectionSeven />
+            </section>
+            <section>
+                <SectionEight />
+            </section>
+            <BtnChat />
         </div>
     )
 }

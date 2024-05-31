@@ -47,8 +47,7 @@ export default function SectionThree() {
                                 {data_images[selectedImage].description}
                             </div>
                             <div className="buttons-experimenta">
-                                <button>SEE MOORE</button>
-                                {/* <button>Suscribe</button> */}
+                                <button>Planifica ahora</button>
                             </div>
                         </div>
                     </div>

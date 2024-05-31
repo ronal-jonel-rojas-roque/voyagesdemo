@@ -18,7 +18,7 @@ export const data_images = [
     {
         id: "2",
         author: "author2",
-        title: "title1",
+        title: "title2",
         topic: "topic1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.",
         img: slide_image_2,
@@ -27,7 +27,7 @@ export const data_images = [
     {
         id: "3",
         author: "author3",
-        title: "title1",
+        title: "title3",
         topic: "topic1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.",
         img: slide_image_3,
@@ -36,7 +36,7 @@ export const data_images = [
     {
         id: "4",
         author: "author4",
-        title: "title1",
+        title: "title4",
         topic: "topic1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.",
         img: slide_image_4,
@@ -45,7 +45,7 @@ export const data_images = [
     {
         id: "5",
         author: "author5",
-        title: "title1",
+        title: "title5",
         topic: "topic1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.",
         img: slide_image_5,
@@ -54,7 +54,7 @@ export const data_images = [
     {
         id: "6",
         author: "author6",
-        title: "title1",
+        title: "title6",
         topic: "topic1",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.",
         img: slide_image_6,

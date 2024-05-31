@@ -1,0 +1,166 @@
+.section-six {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.divsectiontop {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.title-sectiontop {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    color: #284464;
+    letter-spacing: 1.5px;
+    font-family: 'MyFontMinion', sans-serif;
+    line-height: 1.5;
+}
+
+.divsectionmedium {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.divsectionmedium span {
+    font-size: 1.2rem;
+    color: #D5B796;
+    font-family: 'MyFontMinion', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.divsectionbot {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.divcontentslider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.colum1,
+.colum3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.colum2 {
+    flex: 2;
+    width: 100%;
+    max-height: 500px;
+}
+
+.collumn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #dfdfdf9c;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    user-select: none;
+    border-radius: 20px;
+}
+
+
+.collumn2 .autor-text {
+    color: #D5B796;
+    line-height: 3;
+}
+
+.testimonial-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.testimonial-text.show-all {
+    -webkit-line-clamp: unset;
+}
+
+.arrow-slide {
+    font-size: 4rem;
+    cursor: pointer;
+    color: #D5B796;
+}
+
+.arrow-slide:hover {
+    transition: 0.2s ease;
+    color: #284464;
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+    color: #284464;
+    font-family: 'MyFontMinionReg', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+.show-more {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+@media (max-width: 800px) {
+    .divsectiontop {
+        padding-top: 20px;
+    }
+
+    .title-sectiontop {
+        font-size: 1.3rem;
+    }
+
+
+    .colum2 {
+        flex: 6;
+        max-height: max-content;
+    }
+
+    .collumn2 span {
+        font-size: 1rem;
+    }
+
+    .show-more.mobile-only {
+        display: inline;
+    }
+}
+
+@media (min-width: 801px) {
+    .show-more.mobile-only {
+        display: none;
+    }
+
+    .testimonial-text {
+        -webkit-line-clamp: unset;
+    }
+}

@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --line-height: 1.5em;
+}
+
 * {
   margin: 0;
   padding: 0;
