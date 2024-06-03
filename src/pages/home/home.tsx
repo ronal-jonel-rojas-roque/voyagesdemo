@@ -8,6 +8,7 @@ import SectionSix from '../../components/homesections/sectionsix/SectionSix';
 import SectionSeven from '../../components/homesections/sectionseven/SectionSeven';
 import SectionEight from '../../components/homesections/sectioneight/SectionEight';
 import BtnChat from '../../components/btnchat/BtnChat';
+import Footer from '../../components/footer/Footer';
 
 export default function home() {
     return (
@@ -39,6 +40,7 @@ export default function home() {
                 <SectionEight />
             </section>
             <BtnChat />
+            <Footer/>
         </div>
     )
 }

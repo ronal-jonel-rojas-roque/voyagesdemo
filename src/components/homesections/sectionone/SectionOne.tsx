@@ -70,7 +70,7 @@ export default function SectionOne() {
                 </div>
                 <div className="heigthspacing"></div>
                 <div className="btnplan">
-                    <Link to='#' className='Link'>
+                    <Link to='/formulario.html' className='Link'>
                         <span>Planifica tu viaje ahora</span>
                     </Link>
                 </div>
