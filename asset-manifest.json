@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/voyagesdemo/static/css/main.e920ff3a.css",
-    "main.js": "/voyagesdemo/static/js/main.986e0399.js",
-    "static/js/453.acc792a6.chunk.js": "/voyagesdemo/static/js/453.acc792a6.chunk.js",
+    "main.css": "/voyagesdemo/static/css/main.5b97c79f.css",
+    "main.js": "/voyagesdemo/static/js/main.dac87ddc.js",
+    "static/js/453.e901b31b.chunk.js": "/voyagesdemo/static/js/453.e901b31b.chunk.js",
     "static/media/img_6.jpg": "/voyagesdemo/static/media/img_6.cbed77688f84963c9843.jpg",
     "static/media/img_5.jpg": "/voyagesdemo/static/media/img_5.bcd042a5200f4192869f.jpg",
     "static/media/img_3.jpg": "/voyagesdemo/static/media/img_3.1cf3d5913827b609ae96.jpg",
@@ -21,12 +21,12 @@
     "static/media/temple.png": "/voyagesdemo/static/media/temple.e6fb80ddd847090682f9.png",
     "static/media/FunCityLevel2Stencil.woff": "/voyagesdemo/static/media/FunCityLevel2Stencil.8a5f676676ee97478cc5.woff",
     "index.html": "/voyagesdemo/index.html",
-    "main.e920ff3a.css.map": "/voyagesdemo/static/css/main.e920ff3a.css.map",
-    "main.986e0399.js.map": "/voyagesdemo/static/js/main.986e0399.js.map",
-    "453.acc792a6.chunk.js.map": "/voyagesdemo/static/js/453.acc792a6.chunk.js.map"
+    "main.5b97c79f.css.map": "/voyagesdemo/static/css/main.5b97c79f.css.map",
+    "main.dac87ddc.js.map": "/voyagesdemo/static/js/main.dac87ddc.js.map",
+    "453.e901b31b.chunk.js.map": "/voyagesdemo/static/js/453.e901b31b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e920ff3a.css",
-    "static/js/main.986e0399.js"
+    "static/css/main.5b97c79f.css",
+    "static/js/main.dac87ddc.js"
   ]
 }
